@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="apple-touch-icon" sizes="57x57" href="./img/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="./img//apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="./img/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="./img/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="./img/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="./img/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="./img/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="./img/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./img/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="./img/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./img/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="./img/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./img/favicon-16x16.png">
+    <link rel="manifest" href="/manifest.json">
+    <meta name="msapplication-TileColor" content="#000000">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#000000">
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+    <script src="./typeit-script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@200;500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="main-box" id="home">
+        <nav>
+            <h2 class="portfolio">Portfo<span>lio</span></h2>
+            <ul>
+                <li><a class="link-menu" href="#about-me">About</a></li>
+                <li><a class="link-menu" href="#projects-id">Projects</a></li>
+                <li><a class="link-menu" href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="my-name">
+            <h1>Bruno <span>Keller</span></h1>
+            <h3>Fullstack Developer</h3>
+        </div>
+    </div>
+
+    <section id="about-me">
+        <img id="img-perfil" src="./img/meu-perfil.png">
+        <div>
+            <h2 id="about">About Me</h2>
+            <p id="animated">I'm a fullstack developer focused on the front end area!</p>
+            <a href="my_story.html" class="see-more">See more</a>
+        </div>
+    </section>
+
+    <div class="projects" id="projects-id">
+        <h2 id="main">Main Projects</h2>
+
+        <div class="project-cards">
+
+            <div class="card">
+                <img src="./img/sparepals.png">
+                <h5>Spare Pals</h5>
+                <p> Airbnb Clone for renting
+                    "friends". Built the app's front-end with elements using
+                    Bootstrap, HTML and CSS, and assisted the back end with
+                    Ruby. Helped and collaborate my team to improve the
+                    coding, despite language barriers.</p>
+                <a href="https://spare-pals-657ebfd3b407.herokuapp.com" target="_blank">View Project</a>
+            </div>
+
+            <div class="card">
+                <img id="vempo" src="./img/nova-vempo.png">
+                <h5>Vempo</h5>
+                <p id="p-vempo"> Project where we give the user the opportunity to create shapes with
+                    different colors, and require movements from objects.
+                    Built the app's front-end with elements using
+                    Bootstrap, HTML and CSS, and assisted the back end
+                    with Ruby on Rails and JavaScript.</p>
+                <a href="https://vempo-c2793dd428cf.herokuapp.com/" target="_blank">View Project</a>
+            </div>
+
+            <div class="card">
+                <div class="coming-soon-banner">Shortly</div>
+                <img src="">
+                <h5></h5>
+                <p></p>
+            </div>
+
+        </div>
+    </div>
+
+    <footer id="contact">
+        <h5>Bruno Keller</h5>
+        <p>For more information</p>
+
+        <div class="social">
+            <a href="https://www.linkedin.com/in/bruno-keller-46a220272/" target="_blank">
+                <img src="./img/linkedinn.png">
+            </a>
+            <a href="tel:+4407955603640">
+                <img id="tel" src="./img/tel.png">
+            </a>
+            <a href="mailto:brunokeller1102@gmail.com">
+                <img id="mail" src="./img/email.png">
+            </a>
+            <a href="https://github.com/bruno-chaves-keller" target="_blank">
+                <img id="git" src="./img/github.png">
+            </a>
+        </div>
+    </footer>
+
+    <div class="back-to-top-container">
+        <a class="back-to-top" href="#home">
+            <img id="arrow" src="./img/flecha.png">
+        </a>
+    </div>
+
+    <script src="./scrollreveal-script.js"></script>
+    <script src="./scroll-back.js"></script>
+</body>
+
+</html>
