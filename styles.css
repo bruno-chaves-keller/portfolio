@@ -190,6 +190,12 @@ section div a:hover {
     margin-bottom: -23px;
 }
 
+#drums {
+  margin-bottom: -7px;
+  height: 85px;
+  margin-top: 22px;
+}
+
 .card h5 {
     color: #6bb2e5;
     font-size: 24px;
@@ -427,9 +433,3 @@ h2 img:hover {
     padding-top: 20px;
     width: 95px;
 }
-
-
-
-
-
-
