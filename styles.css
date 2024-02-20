@@ -100,17 +100,9 @@ section a {
 
 
 #img-perfil {
-    border-radius: 100%;
+    border-radius: 10%;
     height: 400px;
     margin-right: 20px;
-    transition: transform 0.5s, filter 0.5s;
-    cursor: pointer;
-}
-
-#img-perfil:hover {
-    transform: perspective(1500px);
-
-    box-shadow: -10px 10px 10px -5px #d6e8f2, 0 10px 10px -5px #d6e8f2;
 }
 
 section div h2 {
